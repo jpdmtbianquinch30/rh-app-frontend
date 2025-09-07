@@ -1,0 +1,9 @@
+<div class="dashboard-container">
+  <h1>{{ dashboardData.title }}</h1>
+  <div class="cards">
+    <div class="card" *ngFor="let card of dashboardData.cards" [style.border-left]="'4px solid ' + card.color">
+      <h2>{{ card.title }}</h2>
+      <p class="card-value" [style.color]="card.color">{{ card.value }}</p>
+    </div>
+  </div>
+</div>

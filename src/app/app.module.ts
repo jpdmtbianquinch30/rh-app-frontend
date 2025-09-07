@@ -5,7 +5,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
 // Interceptor JWT
-import { JwtInterceptor } from './shared/interceptors/jwt-interceptor';
+import { JwtInterceptor } from './shared/interceptors/jwt.interceptor';
 
 @NgModule({
   declarations: [
